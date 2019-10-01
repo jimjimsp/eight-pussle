@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.board {
+  position: relative;
+  margin: 20px;
+  background-color: pink;
+}
+
+.piece {
+  position: absolute;
+  margin: 3;
+  padding: 0;
+  background-color: green;
+  width: 64px;
+  height: 64px;
+  border: 1px solid red;
+  font-size: 20px;
+  text-align: center;
+}
